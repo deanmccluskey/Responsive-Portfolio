@@ -1,3 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Basic Portfolio - Contact</title>
+        <meta charset="UTF-8"/>
+        <!-- Scaling to viewing devise -->
+        <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+            crossorigin="anonymous">
+        <!-- Linking Google Fonts -->
+        <link rel="stylesheet" type="text/css" 
+            href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail">
+        <!-- Linking CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- Linking jQuery -->
+        <script type="text/javascript" 
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Define Header, Enter Name, Nav -->
+        <header>
+            <div class="banner">
+                <h1>Dean McCluskey</h1>
+                <nav>
+                    <a id="nav" href="index.html">About</a>
+                    <a id="nav" href="portfolio.html">Portfolio</a>
+                    <a id="nav" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <!-- Define Container, Enter Subhead and Contents -->
+        <div class="container">
+            <div class="subhead">
+                <h2>Contact</h2>
+            </div>
+            <div class="contents">
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" 
+                                required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+        <!-- Define Footer, Enter Info - Copyright, Link to GitHub -->
+        <footer>
+                <h6>Copyright &copy; 2019 <a id="myname" href="https://github.com/deanmccluskey">
+                    Dean McCluskey</a></h6>
+        </footer>
+    </body>
+</html>
+
+
+
+<!--
 <!doctype html>
 <html lang="en-us">
 
