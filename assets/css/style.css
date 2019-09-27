@@ -105,9 +105,10 @@ h2 {
 
 .sample {
   background-color: black;
-  height: 200px;
-  width: 25%;
-  margin: 10px;
+  height: 250px;
+  width: 250px;
+  margin-right: 20px;
+  margin-left: 0px;
   float: left;
 }
 
