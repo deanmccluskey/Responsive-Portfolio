@@ -5,6 +5,7 @@
         <meta charset="UTF-8"/>
         <!-- Scaling to viewing devise -->
         <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" 
             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
@@ -37,23 +38,30 @@
                 <h2>Contact</h2>
             </div>
             <div class="contents">
-                <form id="contact-form">
+                <form id="contact">
                     <ul>
+                        <br>
                         <li>
                             <label for="name">Name:</label>
+                            <br>
                             <input type="text" id="name" name="name" placeholder="John Smith" required="required">
                         </li>
+                        <br>
                         <li>
                             <label for="email">Email:</label>
+                            <br>
                             <input type="email" id="email" name="email" placeholder="example@gmail.com" 
                                 required="required">
                         </li>
+                        <br>
                         <li>
                             <label for="message">Message:</label>
+                            <br>
                             <textarea id="message" name="message" required="required"></textarea>
                         </li>
                     </ul>
-                    <input type="submit">
+                    <br>
+                    <input id="submit" type="submit">
                 </form>
             </div>
         </div>
